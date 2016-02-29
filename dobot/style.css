@@ -30,17 +30,18 @@ h4 {padding-top:10px;
 	padding-right:500px
 	padding-bottom:300px;
 	padding-left:200px;
-    float:right }
+    float:right 
+    }
  .logo {padding-top:10px;
 	padding-right:300px
 	padding-bottom:50px;
 	padding-left:100px;}
- button {background-color:01BFC1;
+ button {background-color:01BFC1;	
  	border:none;
  	padding-bottom:5px;
  	padding-top:5px;padding-right:5px;
  	padding-left:5px
-    text-transform:white}
+    }
  h2 {padding-top:5px;
 	padding-right:200px
 	padding-bottom:50px;
@@ -53,4 +54,7 @@ div {padding-top:0px;
 	padding-bottom:0px;
 	padding-left:100px}
 	}
-article {
+article #container #wrapper{
+	margin:0px 15px 0px 15px;
+	padding: 67px 0px 0px 0px
+}
