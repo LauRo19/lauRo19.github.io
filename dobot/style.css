@@ -3,7 +3,8 @@ h1 {padding-top:80px;
 	padding-bottom:5px;
 	padding-left:100px;
 	color:white;
-	font-family:arial,serif;
+	font-family:American Typewriter;
+	font-weight:lighter;
 	font-size:40px
     }
 body {background-color:1A2325}
@@ -25,22 +26,31 @@ h4 {padding-top:10px;
 	padding-left:100px;
 	color:gray
     }
-img{padding-top:50px;
-	padding-right:100px
+.product {padding-top:50px;
+	padding-right:500px
 	padding-bottom:300px;
-	padding-left:100px;
-    float:right}
+	padding-left:200px;
+    float:right }
+ .logo {padding-top:10px;
+	padding-right:300px
+	padding-bottom:50px;
+	padding-left:100px;}
  button {background-color:01BFC1;
  	border:none;
  	padding-bottom:5px;
  	padding-top:5px;padding-right:5px;
- 	padding-left:5px}
+ 	padding-left:5px
+    text-transform:white}
  h2 {padding-top:5px;
 	padding-right:200px
 	padding-bottom:50px;
-	padding-left:0px;color:white}
-div {padding-top:50px;
+	padding-left:0px;
+	color:white;
+	font-family:American Typewriter;
+	font-weight:lighter}
+div {padding-top:0px;
 	padding-right:200px
-	padding-bottom:50px;
+	padding-bottom:0px;
 	padding-left:100px}
 	}
+article {
