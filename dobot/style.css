@@ -43,7 +43,7 @@ h4 {padding-top:0px;
 	font-family:LFT Etica;
 	font-style:semibold;
 	font-size:16px;
-	line-height:24px
+	text-transform: u
     }
 .product1{padding-top:100px;
 	padding-right:100px;
@@ -55,7 +55,7 @@ h4 {padding-top:0px;
 	padding-right:100px;
 	padding-bottom:200px;
 	padding-left:200px;
-    float:right 
+    float:right;
     }
  .product3{padding-top:100px;
 	padding-right:100px;
@@ -97,17 +97,25 @@ article #container #wrapper{
 	padding: 200px 200px 200px 200px;
     }
 .primero{border-width:thin;
-	border-style:none;
+	border-style:solid;
+	border-color:#31393b;
+	border-top:none;
+	border-left:none;
+	border-right:none;
 	padding-bottom:400px;
 	padding-top:20px
     }
 .segundo{border-width:thin;
-	border-style:none;
 	padding-bottom:400px;
 	padding-top:300px
     }
 .tercero{border-width:thin;
-	border-style:none;
+	border-style:solid;
+	border-right:none;
+	border-left:none;
+	border-bottom:none;
+	border-padding:300px;
+	border-color:#31393b;
 	padding-bottom:300px;
 	padding-top:600px
     }
