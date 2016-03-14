@@ -33,7 +33,7 @@ a {padding-top:0px;
 	font-style:16px; 
 	color:#01bfc1;
 	line-height:24px;
-	text-decoration:none
+	text-decoration:none;
 	}
 h4 {padding-top:0px;
 	padding-right:300px
@@ -43,25 +43,12 @@ h4 {padding-top:0px;
 	font-family:LFT Etica;
 	font-style:semibold;
 	font-size:16px;
-	text-transform: u
     }
-.product1{padding-top:100px;
+.product{padding-top:100px;
 	padding-right:100px;
 	padding-bottom:0px;
 	padding-left:200px;
-    float:right 
-    }
- .product2{padding-top:0px;
-	padding-right:100px;
-	padding-bottom:200px;
-	padding-left:200px;
-    float:right;
-    }
- .product3{padding-top:100px;
-	padding-right:100px;
-	padding-bottom:200px;
-	padding-left:200px;
-    float:right 
+    float:right; 
     }
  .logo {padding-top:0px;
 	padding-right:300px
@@ -85,37 +72,21 @@ h4 {padding-top:0px;
 	padding-left:0px;
 	color:white;
 	font-family:Quatro Slab;
-	font-size:24px
+	font-size:24px;
     }
 div {padding-top:0px;
 	padding-right:200px
 	padding-bottom:0px;
-	padding-left:100px}
+	padding-left:100px;
 	}
-article #container #wrapper{
-	margin:50px 15px 50px 15px;
-	padding: 200px 200px 200px 200px;
-    }
-.primero{border-width:thin;
+
+article{border-width:1px;
 	border-style:solid;
 	border-color:#31393b;
 	border-top:none;
 	border-left:none;
 	border-right:none;
 	padding-bottom:400px;
-	padding-top:20px
+	padding-top:20px;
     }
-.segundo{border-width:thin;
-	padding-bottom:400px;
-	padding-top:300px
-    }
-.tercero{border-width:thin;
-	border-style:solid;
-	border-right:none;
-	border-left:none;
-	border-bottom:none;
-	border-padding:300px;
-	border-color:#31393b;
-	padding-bottom:300px;
-	padding-top:600px
-    }
+.
