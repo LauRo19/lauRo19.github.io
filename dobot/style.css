@@ -25,15 +25,15 @@ p {padding-top:0px;
  	color: #abadad;
  	line-height:24px
     }
-a {color:01BFC1;
-	padding-top:0px;
+a {padding-top:0px;
 	padding-right:300px
 	padding-bottom:5px;
 	padding-left:0px;
 	font-family:LFT Etica;
 	font-style:16px; 
 	color:#01bfc1;
-	line-height:24px
+	line-height:24px;
+	text-decoration:none
 	}
 h4 {padding-top:0px;
 	padding-right:300px
