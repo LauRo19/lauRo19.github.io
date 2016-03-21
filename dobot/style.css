@@ -108,8 +108,8 @@ h4 {padding-top:0px;
 	padding-top:200px;
 }
 .line-separator{width:870px;
-    height:1px;
-    background:#31393b; 
+    height:0.08px; 
     padding-left:200px; 
     padding-right:-100px;
+    border-bottom:1px dotted #31393b;
 }
