@@ -1,0 +1,120 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+nav{float:right;
+    color:#50E3C2;
+    padding-top: 10px;
+    padding-right: 30px; 
+}
+
+a{
+  padding-left:20px;
+  padding-right:10px;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-style: regular;}
+
+img{width: 30%;
+ border: 5px solid #D2EAD9;
+ box-shadow: 2px #979797; 
+}
+
+body{
+	background-color:#F8FFF5;
+	border:solid 1px #1C1B1B;
+	border-top:0px;	
+	border-bottom:0px;}
+
+
+
+content {border: 1px solid transparent;
+          padding-top: 100px;
+          padding-left: 300px;
+          padding-right: 300px;
+          float:right;}
+
+#firstproject{border:10px #F8FFF5;}
+
+h1 {border: 1px solid transparent;
+	font-family: Acumin Pro;
+font-size: 300px;
+font-style: light;
+float:left;
+color:#43A59E;
+opacity:0.2;
+font-kerning:-15px;
+  width:130px;
+  height:50px;
+  padding-left:200px;
+  -ms-transform:rotate(90deg); /* IE 9 */
+  -moz-transform:rotate(90deg); /* Firefox */
+  -webkit-transform:rotate(90deg); /* Safari and Chrome */
+  -o-transform:rotate(90deg); /* Opera */}
+
+h2 {font-family: Acumin Pro;
+font-size: 300px;
+font-style: light;
+float:left;
+color:#43A59E;
+opacity:0.2;
+float:right;
+  width:130px;
+  height:50px;
+  padding-right: -1100px;
+  padding-left: 1px;
+  -ms-transform:rotate(90deg); /* IE 9 */
+  -moz-transform:rotate(90deg); /* Firefox */
+  -webkit-transform:rotate(90deg); /* Safari and Chrome */
+  -o-transform:rotate(90deg); /* Opera */}
+
+
+
+
+
+ 

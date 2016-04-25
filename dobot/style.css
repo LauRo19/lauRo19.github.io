@@ -159,11 +159,8 @@ a {padding-top:0px;
     width: 30%;  
     }
 
-.div0 {height:174px;}
-.div01 {height:130px;}
-.div1 {height:42px;}
-.div2 {height:142px;}
-.div3 {height:5342px;
+div{padding-top:30px;
+    [padding-top: 30px; }
 }
 
 #maincontent {float:left;
@@ -178,9 +175,10 @@ article {border-bottom: 1px solid #31393b;
 @media screen and (max-width:1000px) {
 	#maincontent,
 	.product{float:none;
-	         width:100%;}}
+	         width:100%;
+	         height:auto;}
 
-@media screen and (max-width:450px){}
+
 
 button:hover {
   background-color: #4A90E2;
