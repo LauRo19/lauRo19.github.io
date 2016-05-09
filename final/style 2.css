@@ -50,8 +50,9 @@ table {
 nav{float:right;
     color:#4A4A4A;
     padding-top: 20px;
-    padding-left: 1060px;
+    padding-left: 1090px;
     position:fixed;
+    z-index: 3;
 }
 
 div {margin:1px solid transparent;
@@ -72,11 +73,13 @@ a{
   color:#B1FEED;
 }
 
-img {width: 40%;
-  float:left;  padding-top: 50px;
+img {height:33%;
+  width: 40%;
+  float:left; 
   padding-right: 10px;
+  padding-bottom: 10px;
   position:relative;
-  ;
+  
 }
 
 body{
@@ -87,23 +90,26 @@ body{
 }
 
 #projectphotos{padding-left: 80px;
-    padding-top:40px;
-    padding-bottom:100px;
+    padding-right: 59px;
+    padding-top:320px;
+    padding-bottom:50px;
     position:absolute;
     }
 
 #description{background-color:#D8C904;
   padding-left: 80px;
     padding-top:100px;
-    padding-bottom:80px;
+    padding-bottom:40px;
     padding-right: 120px;
-    }
+    position:fixed;
+    z-index: 1;}
 
-h3 {font-family: Helvetica;
+h3 {font-family: Acumin Pro;
 font-size: 20px;
-font-style: bold;
-color: #6F6805;
-line-height: 34px;
+font-style: regular;
+font-weight:bold;
+color: #393839;
+line-height: 43px;
 padding-left: 50px;
 padding-right: 50px;
 text-transform: uppercase;
@@ -113,7 +119,8 @@ text-transform: uppercase;
 h1 {
   font-family: Acumin Pro;
   font-size: 220px;
-  font-style: bold;
+  font-style: regular;
+  font-weight:bold;
   float:left;
   color:#5A595B;
   opacity:0.2;
@@ -122,6 +129,7 @@ h1 {
   height:50px;
   padding-left:150px;
   position:fixed;
+  z-index: 2;
   -moz-transform: rotate(90deg);
   -moz-transform-origin: 50% 50%;
   -webkit-transform: rotate(90deg);
@@ -129,7 +137,8 @@ h1 {
 
 h2 {font-family: Acumin Pro;
   font-size: 220px;
-  font-style: bold;
+  font-style: regular;
+  font-weight:bold;
   float:right;
   color:#5A595B;
   opacity:0.2;
@@ -137,16 +146,17 @@ h2 {font-family: Acumin Pro;
   height:50px;
   padding-right:2100px;
   position:fixed;
+  z-index: 2;
   -moz-transform: rotate(270deg);
   -moz-transform-origin: 50% 50%;
   -webkit-transform: rotate(270deg);
   -webkit-transform-origin: 50% 50%;}
 
-p{font-family: Helvetica;
+p{font-family: Acumin Pro;
 font-size: 12px;
-font-style: light;
-color: #6F6805;
-line-height: 18px;
+font-weight: lighter;
+color: #393839;
+line-height: 19px;
 padding-left: 50px;
 padding-right: 50px;
 
@@ -156,7 +166,42 @@ a:hover {
   color:#3EA991;
 }
 
+.modalDialog:target {
+  opacity:1;
+  pointer-events: auto;
+}
 
+.modalDialog > div {
+  width: 400px;
+  position: relative;
+  margin: 10% auto;
+  padding: 5px 20px 13px 20px;
+  border-radius: 10px;
+  background: #fff;
+  background: -moz-linear-gradient(#fff, #999);
+  background: -webkit-linear-gradient(#fff, #999);
+  background: -o-linear-gradient(#fff, #999);
+  }
 
+  .close {
+  background: #606061;
+  color: #FFFFFF;
+  line-height: 25px;
+  position: absolute;
+  right: -12px;
+  text-align: center;
+  top: -10px;
+  width: 24px;
+  text-decoration: none;
+  font-weight: bold;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  -moz-box-shadow: 1px 1px 3px #000;
+  -webkit-box-shadow: 1px 1px 3px #000;
+  box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #00d9ff; }
 
 

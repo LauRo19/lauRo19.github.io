@@ -50,7 +50,7 @@ table {
 nav{float:right;
     color:#B1FEED;
     padding-top: 20px;
-    padding-left: 1060px;
+    padding-left: 1090px;
     position:fixed;
 }
 
@@ -61,13 +61,19 @@ div {
 
 .link1 {padding-right: 10px;}
 .link2 {padding-left: 10px;}
+a:hover {
+  color:#D8C904;
+}
+
+
 .contact {font-size: 10px;
   font-family: Montserrat;
   font-style: lighter;
   letter-spacing: 1px;
   text-transform: uppercase;
   padding-left: 10px;
-padding-right: 10px;}
+padding-right: 10px;
+color}
 
 a{
   font-size: 10px;
@@ -79,10 +85,11 @@ a{
   color: #B1FEED;
 }
 
-img {width: 50%;
-  float:left;  padding-top: 43px;
-  padding-right: 30px;
-  padding-left: 20px;
+img {width: 30%;
+  float:left; 
+  padding-right: 25px;
+  padding-left: 95px;
+  padding-top: 140px;
 
 }
 
@@ -91,41 +98,51 @@ body{
 	border-top:0px;	
 	border-bottom:0px;
   background-color:#4A4A4A;
+  padding-bottom: 100px;
 }
 
 #profilephoto{
     padding-left: 10px;
-    padding-top:80px;
+    padding-top:10px;
     padding-bottom:100px;
 
     }
 
 #description{background-color:#D8C904;
-  padding-left: 100px;
+  border: 1px solid transparent;
+  padding-left: 400px;
     padding-top:50px;
     padding-bottom:50px;
+ 
+    
     }
 
-#contact{color:#D8C904;
-  padding-left: 300px;
+#contact{
+  padding-left: 83px;
     padding-top:47px;
     padding-bottom:100px;
     }
 
+.contact {color:#D8C904;
+  padding-left: 50px;
+    }
+.contact:hover {color:#E3DCD1;}
 
-h3 {font-family: Helvetica;
+h3 {font-family: Acumin Pro;
 font-size: 20px;
-font-style: bold;
-color: #6F6805;
-line-height: 34px;
-padding-left: 50px;
-padding-right: 50px;
-text-transform: uppercase;
+font-style: regular;
+font-weight: bold;
+color: #393839;
+line-height: 43px;
+padding-left: 80px;
 }
+
+
 h1 {
   font-family: Acumin Pro;
   font-size: 220px;
-  font-style: bold;
+  font-style: regular;
+  font-weight:bold;
   float:left;
   color:#5A595B;
   opacity:0.2;
@@ -141,7 +158,8 @@ h1 {
 
 h2 {font-family: Acumin Pro;
   font-size: 220px;
-  font-style: bold;
+  font-style: regular;
+  font-weight:bold;
   float:right;
   color:#5A595B;
   opacity:0.2;
@@ -154,17 +172,19 @@ h2 {font-family: Acumin Pro;
   -webkit-transform: rotate(270deg);
   -webkit-transform-origin: 50% 50%;}
 
-p{font-family: Helvetica;
+p{font-family: Acumin Pro;
 font-size: 12px;
-font-style: light;
-color: #6F6805;
+color: #393839;
+font-weight:lighter;
 line-height: 19px;
-padding-left: 50px;
-padding-right: 50px;
+padding-left: 80px;
+padding-right: 185px;
+padding-top: 10px;
+padding-bottom: 10px;
 }
 
 ul {
-width: 800px;
+width: 300px;
 margin-left: auto;
 margin-right: auto; 
 }
@@ -173,14 +193,10 @@ li {
 display: inline;
 list-style: none;
 float: left;
-margin: 10px;
-min-height: 10px;
-padding-left: 10px;
-padding-left: 10px;}
-
-a:hover {
-  color:#D8C904;
+height: 30px;
 }
+
+
 
 
 

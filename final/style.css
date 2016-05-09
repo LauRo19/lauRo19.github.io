@@ -50,7 +50,7 @@ table {
 nav{float:right;
     color:#B1FEED;
     padding-top: 20px;
-    padding-left: 1060px;
+    padding-left: 1090px;
     position:fixed;
 }
 
@@ -60,7 +60,13 @@ div {margin:1px solid transparent;
   }
 
 .link1 {padding-right: 10px;}
+.link:hover {
+  color:#D8C904;
+}
 .link2 {padding-left: 10px;}
+.link2:hover {
+  color:#D8C904;
+}
 a{
   font-size: 10px;
   font-family: Montserrat;
@@ -87,7 +93,6 @@ body{
     padding-top:80px;
     padding-bottom:100px;
     }
-
 
 h1 {
   font-family: Acumin Pro;
@@ -122,26 +127,29 @@ h2 {font-family: Acumin Pro;
   -webkit-transform-origin: 50% 50%;}
 
 .project1 {
-  position: relative; 
+  position: relative;
    }
 
 .imgDescription1 { 
   position: absolute;
-  top:254px;
-  left:270px;
+  top:273px;
+  left:270px; 
   padding-top: 34px;
   padding-bottom: 34px;
-  padding-left: 83px;
-  padding-right: 83px;
+  padding-left: 92px;
+  padding-right: 93px;
   text-align: center;
   font-family: Montserrat;
   font-style: lighter;
+  width:auto;
+  height:auto;
   background-color: rgba(216, 201, 4, 0.95);
   color: #6F6805;
   font-size: 14px;
   letter-spacing: 1.1px;
   visibility: hidden;
   opacity: 0.75;
+
   }
 
 .project1:hover .imgDescription1 {
@@ -155,12 +163,12 @@ h2 {font-family: Acumin Pro;
 
 .imgDescription2 { 
   position: absolute;
-  top:254px;
-  left:595px;
+  top:275px;
+  left:616px;
   padding-top: 34px;
   padding-bottom: 34px;
-  padding-left: 79px;
-  padding-right: 79px;
+  padding-left: 88px;
+  padding-right: 88px;
   text-align: center;
   font-family: Montserrat;
   font-style: lighter;
@@ -183,12 +191,12 @@ h2 {font-family: Acumin Pro;
 
 .imgDescription3 { 
   position: absolute;
-  top:585px;
+  top:625px;
   left:270px;
   padding-top: 34px;
   padding-bottom: 34px;
-  padding-left: 88px;
-  padding-right: 88px;
+  padding-left: 98px;
+  padding-right: 97px;
   text-align: center;
   font-family: Montserrat;
   font-style: lighter;
@@ -211,12 +219,12 @@ h2 {font-family: Acumin Pro;
 
 .imgDescription4 { 
   position: absolute;
-  top:588px;
-  left:595px;
+  top:629px;
+  left:615px;
   padding-top: 34px;
   padding-bottom: 34px;
-  padding-left: 77px;
-  padding-right: 77px;
+  padding-left: 86px;
+  padding-right: 87px;
   text-align: center;
   font-family: Montserrat;
   font-style: lighter;
@@ -239,12 +247,12 @@ h2 {font-family: Acumin Pro;
 
 .imgDescription5 { 
   position: absolute;
-  top:918px;
+  top:988px;
   left:270px;
   padding-top: 34px;
   padding-bottom: 34px;
-  padding-left: 75px;
-  padding-right: 75px;
+  padding-left: 86px;
+  padding-right: 85px;
   text-align: center;
   font-family: Montserrat;
   font-style: lighter;
@@ -267,12 +275,12 @@ h2 {font-family: Acumin Pro;
 
 .imgDescription6 { 
   position: absolute;
-  top:922px;
-  left:596px;
+  top:987px;
+  left:615px;
   padding-top: 34px;
   padding-bottom: 34px;
-  padding-left: 71px;
-  padding-right: 72px;
+  padding-left: 81px;
+  padding-right: 81px;
   text-align: center;
   font-family: Montserrat;
   font-style: lighter;
@@ -289,6 +297,7 @@ h2 {font-family: Acumin Pro;
   opacity: 1;
   }
 
-a:hover {
-  color:#D8C904;
+.imgDescription4:hover {
+  color:#231F20;
 }
+
