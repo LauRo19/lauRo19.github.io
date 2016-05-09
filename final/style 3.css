@@ -170,7 +170,8 @@ h2 {font-family: Acumin Pro;
   -moz-transform: rotate(270deg);
   -moz-transform-origin: 50% 50%;
   -webkit-transform: rotate(270deg);
-  -webkit-transform-origin: 50% 50%;}
+  -webkit-transform-origin: 50% 50%;
+top:-178px;}
 
 p{font-family: Acumin Pro;
 font-size: 12px;
